@@ -14,7 +14,7 @@ fshift = np.fft.fftshift(f)
 magnitude_spectrum = np.log(np.abs(fshift)) #Log scale for easier visibility of the noise
 
 # Create a 2D Gaussian-shaped filter to remove the noise
-# We are assuming Gaussian shape for the noise
+# Assuming Gaussian shape for the noise
 rows, cols = noisy_np.shape
 crow, ccol = rows // 2, cols // 2
 x = np.arange(cols) - ccol
