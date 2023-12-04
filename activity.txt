@@ -1,0 +1,7 @@
+The image showeryz.png is a YZ plot of muon airshower data from the NoVA far detector
+
+Your goal is to perform fft on the image and plot the original image, the frequency domain 
+before you apply the filter, and the frequency domain after you apply the filter
+
+Once you try this with a Gaussian filter, try representing the filter with 
+different mathematical expressions and see what you get!
