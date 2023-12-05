@@ -1,6 +1,6 @@
 The image showeryz.png is a YZ plot of muon airshower data from the NoVA far detector
 
-Your goal is to perform fft on the image and create a low-pass filter that you then apply
+Your goal is to perform fft on the image and create a high-pass filter that you then apply
 to the image. Then, plot the original image, the frequency domain 
 before you apply the filter, and the frequency domain after you apply the filter.
 What do you notice about the frequency domain before and after the filter?
